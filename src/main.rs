@@ -14,7 +14,7 @@ fn main() {
     let two_sum_answer = two_sum(two_sum_nums, 9);
     let palindrome_number_answer = palindrome_number(131);
     let roman_to_int_answer = roman_to_int("MCMXCIV".to_string());
-    let longest_common_prefix_answer= longest_common_prefix(["c".to_string(),"acc".to_string(),"ccc".to_string(),"cccc".to_string()].to_vec());
+    let longest_common_prefix_answer= longest_common_prefix(["ccc".to_string(),"acc".to_string(),"ccc".to_string(),"cccc".to_string()].to_vec());
     print!("Two Sum Answer: {:?} ", two_sum_answer);
     print!("Palindrome Number Answer: {:?} ", palindrome_number_answer);
     print!("Roman to Int Answer: {:?} ", roman_to_int_answer);
