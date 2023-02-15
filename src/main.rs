@@ -30,13 +30,13 @@ fn main() {
     );
     let valid_parentheses_answer = is_valid(String::from("]()]{}"));
     let search_insert_position_answer = search_insert(Vec::from([1, 3, 5, 6]), 7);
-    print!("Two Sum Answer: {:?} ", two_sum_answer);
-    print!("Palindrome Number Answer: {:?} ", palindrome_number_answer);
-    print!("Roman to Int Answer: {:?} ", roman_to_int_answer);
-    print!(
+    println!("Two Sum Answer: {:?} ", two_sum_answer);
+    println!("Palindrome Number Answer: {:?} ", palindrome_number_answer);
+    println!("Roman to Int Answer: {:?} ", roman_to_int_answer);
+    println!(
         "Longsest Common Prefix Answer: {:?} ",
         longest_common_prefix_answer
     );
-    print!("Valid Parenthese Answer: {:?} ", valid_parentheses_answer);
-    print!("Search Insert Position Answer: {:?} ", search_insert_position_answer);
+    println!("Valid Parenthese Answer: {:?} ", valid_parentheses_answer);
+    println!("Search Insert Position Answer: {:?} ", search_insert_position_answer);
 }
