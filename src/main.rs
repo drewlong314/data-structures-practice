@@ -8,6 +8,7 @@ pub mod palindrome_number;
 mod two_sum;
 pub mod roman_to_int;
 pub mod longest_common_prefix;
+pub mod valid_parentheses;
 
 fn main() {
     let two_sum_nums = vec![9, 12, 3, 5, 4];
