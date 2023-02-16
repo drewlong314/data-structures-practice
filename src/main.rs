@@ -4,7 +4,7 @@ use palindrome_number::palindrome_number;
 
 use crate::{
     longest_common_prefix::longest_common_prefix, roman_to_int::roman_to_int,
-    search_insert_position::search_insert, two_sum::two_sum, valid_parentheses::is_valid,
+    search_insert_position::search_insert, two_sum::two_sum, valid_parentheses::is_valid, contains_duplicate::contains_duplicate,
 };
 
 pub mod longest_common_prefix;
@@ -13,6 +13,7 @@ pub mod roman_to_int;
 pub mod search_insert_position;
 pub mod two_sum;
 pub mod valid_parentheses;
+pub mod contains_duplicate;
 
 fn main() {
     let two_sum_nums = vec![9, 12, 3, 5, 4];
@@ -30,6 +31,7 @@ fn main() {
     );
     let valid_parentheses_answer = is_valid(String::from("]()]{}"));
     let search_insert_position_answer = search_insert(Vec::from([1, 3, 5, 6]), 7);
+    let contains_duplicate_answer = contains_duplicate(Vec::from([1,2,3,1]));
     println!("Two Sum Answer: {:?} ", two_sum_answer);
     println!("Palindrome Number Answer: {:?} ", palindrome_number_answer);
     println!("Roman to Int Answer: {:?} ", roman_to_int_answer);
@@ -39,4 +41,5 @@ fn main() {
     );
     println!("Valid Parenthese Answer: {:?} ", valid_parentheses_answer);
     println!("Search Insert Position Answer: {:?} ", search_insert_position_answer);
+    println!("Contains Duplicate Answer: {:?} ", contains_duplicate_answer);
 }
