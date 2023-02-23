@@ -14,6 +14,7 @@ pub mod search_insert_position;
 pub mod two_sum;
 pub mod valid_parentheses;
 pub mod contains_duplicate;
+pub mod maximum_subarray;
 
 fn main() {
     let two_sum_nums = vec![9, 12, 3, 5, 4];
